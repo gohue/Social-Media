@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Text Section -->
+        <h1>social media</h1>
+    <!-- Social-Media-Icon Section -->
+    <div class="social-media-icon">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span>Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span>Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <span>Youtube</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-adjust" aria-hidden="true"></i>
+                <span onclick="myFunction()">Mode</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+<!-- Js Script Section -->
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+</html>
